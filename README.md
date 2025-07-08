@@ -8,6 +8,7 @@ An intelligent bearing fault diagnosis system based on Loongson 2K1000LA, using 
 
 项目旨在解决传统工业监测系统对国外技术依赖度高、智能化程度不足的问题，提供一个从硬件采集到软件分析、从边缘计算到远程监控的完整解决方案。
 
+关键词：轴承故障诊断；龙芯 2K1000LA；Loongnix 操作系统；残差神经网络；梅尔频率倒谱系数；FPGA；边缘计算；Qt；TCP/IP 网络.
 ---
 
 ## ✨ 功能特性
