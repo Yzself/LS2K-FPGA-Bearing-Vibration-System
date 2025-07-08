@@ -137,8 +137,8 @@ python train.py
 │   ├── Beep                # 蜂鸣器驱动
 │   ├── FPGA_SPI            # SPI通信驱动
 |   ├── Device_Tree_n_Kernel# 设备树dts和内核vmlinuz
-├── FPGA_SPI_ADC_ADrate/rtl # FPGA端源代码                 
-├── Figure/                 # 报告或README中使用的图片
+├── FPGA_Driver/rtl         # FPGA端源代码                 
+├── Figure/                 # 展示图片
 ├── .gitignore              # Git忽略文件
 ├── LICENSE                 # 开源许可证 (MIT)
 └── README.md               # 项目说明文档
