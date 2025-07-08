@@ -33,7 +33,7 @@ An intelligent bearing fault diagnosis system based on Loongson 2K1000LA, using 
 ## 🛠️ 技术栈
 
 *   **硬件**: 龙芯2K1000LA, 国产FPGA, 三轴加速度传感器 (ADXL357)
-*   **软件-后端/嵌入式**: C++17, Qt 5, Python 3.7.3, PyTorch, Verilog
+*   **软件-后端/嵌入式**: C++17, Qt 5.12, Python 3.7.3, PyTorch, Verilog
 *   **软件-通信**: 自定义TCP/IP封包协议, JSON
 *   **操作系统**: Loongnix (龙芯Linux发行版), Windows/Linux (PC端)
 *   **核心算法**: ResNet-18 (轻量化), 梅尔频率倒谱系数 (MFCC)
@@ -48,12 +48,12 @@ An intelligent bearing fault diagnosis system based on Loongson 2K1000LA, using 
 
 **通用:**
 *   Git
-*   Qt 5 或更高版本
+*   Qt 5.12 或更高版本
 *   支持Loongarch的交叉编译链 (loongarch64-Loongson-linux-)
 
 **Python 环境 (用于AI后端和训练):**
-*   Python 3.7.3(适配Loongnix默认环境)
-*   PyTorch 1.13.1(`pip install torch`)
+*   Python 3.7.3(Loongnix默认环境)
+*   PyTorch 1.13.1(`pip install torch-1.13.1`)
 *   numpy 1.21.5
 *   TensorBoard (`pip install tensorboard`)
 *   tqdm, pandas...
