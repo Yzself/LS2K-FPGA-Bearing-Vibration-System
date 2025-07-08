@@ -1,0 +1,1081 @@
+##### Written on 2025/04/24 23:34:54 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL22G-6MBG324
+
+Top Module : 
+	spi_slave_driver
+
+Constraint File(s) : 
+	D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc
+
+##### SUMMARY ######################################################
+
+Found 249 error(s), 4 critical warning(s), 22 warning(s), out of 276 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+create_clock -name sys_clk -period 20.000 -waveform {0.000 10.000} [get_ports sys_clk]
+	E: CommandTiming-0057: Nothing matched for 'source_list', command 'create_clock' is aborted.
+
+create_clock -name sys_clk -period 20.000 \
+    -waveform {0.000 10.000} \
+    [get_ports sys_clk]
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 2)] Failed to import constraint "create_clock -name sys_clk -period 20.000 -waveform {0.000 10.000} [get_ports sys_clk]".
+
+define_attribute {p:test} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 7)] Object 'p:test' can not be found in current view.
+
+define_attribute {p:test} {PAP_IO_LOC} {D1}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 8)] Object 'p:test' can not be found in current view.
+
+define_attribute {p:test} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 9)] Object 'p:test' can not be found in current view.
+
+define_attribute {p:test} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 10)] Object 'p:test' can not be found in current view.
+
+define_attribute {p:test} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 11)] Object 'p:test' can not be found in current view.
+
+define_attribute {p:test} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 12)] Object 'p:test' can not be found in current view.
+
+define_attribute {p:test} {PAP_IO_SLEW} {FAST}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 13)] Object 'p:test' can not be found in current view.
+
+define_attribute {p:sys_clk} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 16)] Object 'p:sys_clk' can not be found in current view.
+
+define_attribute {p:sys_clk} {PAP_IO_LOC} {B5}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 17)] Object 'p:sys_clk' can not be found in current view.
+
+define_attribute {p:sys_clk} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 18)] Object 'p:sys_clk' can not be found in current view.
+
+define_attribute {p:sys_clk} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 19)] Object 'p:sys_clk' can not be found in current view.
+
+define_attribute {p:sys_clk} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 20)] Object 'p:sys_clk' can not be found in current view.
+
+define_attribute {p:led[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 54)] Object 'p:led[3]' can not be found in current view.
+
+define_attribute {p:led[3]} {PAP_IO_LOC} {G1}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 55)] Object 'p:led[3]' can not be found in current view.
+
+define_attribute {p:led[3]} {PAP_IO_VCCIO} {1.5}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 56)] Object 'p:led[3]' can not be found in current view.
+
+define_attribute {p:led[3]} {PAP_IO_STANDARD} {LVCMOS15}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 57)] Object 'p:led[3]' can not be found in current view.
+
+define_attribute {p:led[3]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 58)] Object 'p:led[3]' can not be found in current view.
+
+define_attribute {p:led[3]} {PAP_IO_PULLUP} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 59)] Object 'p:led[3]' can not be found in current view.
+
+define_attribute {p:led[3]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 60)] Object 'p:led[3]' can not be found in current view.
+
+define_attribute {p:led[2]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 61)] Object 'p:led[2]' can not be found in current view.
+
+define_attribute {p:led[2]} {PAP_IO_LOC} {J7}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 62)] Object 'p:led[2]' can not be found in current view.
+
+define_attribute {p:led[2]} {PAP_IO_VCCIO} {1.5}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 63)] Object 'p:led[2]' can not be found in current view.
+
+define_attribute {p:led[2]} {PAP_IO_STANDARD} {LVCMOS15}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 64)] Object 'p:led[2]' can not be found in current view.
+
+define_attribute {p:led[2]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 65)] Object 'p:led[2]' can not be found in current view.
+
+define_attribute {p:led[2]} {PAP_IO_PULLUP} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 66)] Object 'p:led[2]' can not be found in current view.
+
+define_attribute {p:led[2]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 67)] Object 'p:led[2]' can not be found in current view.
+
+define_attribute {p:led[1]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 68)] Object 'p:led[1]' can not be found in current view.
+
+define_attribute {p:led[1]} {PAP_IO_LOC} {J6}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 69)] Object 'p:led[1]' can not be found in current view.
+
+define_attribute {p:led[1]} {PAP_IO_VCCIO} {1.5}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 70)] Object 'p:led[1]' can not be found in current view.
+
+define_attribute {p:led[1]} {PAP_IO_STANDARD} {LVCMOS15}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 71)] Object 'p:led[1]' can not be found in current view.
+
+define_attribute {p:led[1]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 72)] Object 'p:led[1]' can not be found in current view.
+
+define_attribute {p:led[1]} {PAP_IO_PULLUP} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 73)] Object 'p:led[1]' can not be found in current view.
+
+define_attribute {p:led[1]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 74)] Object 'p:led[1]' can not be found in current view.
+
+define_attribute {p:led[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 75)] Object 'p:led[0]' can not be found in current view.
+
+define_attribute {p:led[0]} {PAP_IO_LOC} {F3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 76)] Object 'p:led[0]' can not be found in current view.
+
+define_attribute {p:led[0]} {PAP_IO_VCCIO} {1.5}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 77)] Object 'p:led[0]' can not be found in current view.
+
+define_attribute {p:led[0]} {PAP_IO_STANDARD} {LVCMOS15}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 78)] Object 'p:led[0]' can not be found in current view.
+
+define_attribute {p:led[0]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 79)] Object 'p:led[0]' can not be found in current view.
+
+define_attribute {p:led[0]} {PAP_IO_PULLUP} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 80)] Object 'p:led[0]' can not be found in current view.
+
+define_attribute {p:led[0]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 81)] Object 'p:led[0]' can not be found in current view.
+
+define_attribute {p:ad0_data[9]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 222)] Object 'p:ad0_data[9]' can not be found in current view.
+
+define_attribute {p:ad0_data[9]} {PAP_IO_LOC} {K15}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 223)] Object 'p:ad0_data[9]' can not be found in current view.
+
+define_attribute {p:ad0_data[9]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 224)] Object 'p:ad0_data[9]' can not be found in current view.
+
+define_attribute {p:ad0_data[9]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 225)] Object 'p:ad0_data[9]' can not be found in current view.
+
+define_attribute {p:ad0_data[9]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 226)] Object 'p:ad0_data[9]' can not be found in current view.
+
+define_attribute {p:ad0_data[8]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 227)] Object 'p:ad0_data[8]' can not be found in current view.
+
+define_attribute {p:ad0_data[8]} {PAP_IO_LOC} {H13}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 228)] Object 'p:ad0_data[8]' can not be found in current view.
+
+define_attribute {p:ad0_data[8]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 229)] Object 'p:ad0_data[8]' can not be found in current view.
+
+define_attribute {p:ad0_data[8]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 230)] Object 'p:ad0_data[8]' can not be found in current view.
+
+define_attribute {p:ad0_data[8]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 231)] Object 'p:ad0_data[8]' can not be found in current view.
+
+define_attribute {p:ad0_data[7]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 232)] Object 'p:ad0_data[7]' can not be found in current view.
+
+define_attribute {p:ad0_data[7]} {PAP_IO_LOC} {J15}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 233)] Object 'p:ad0_data[7]' can not be found in current view.
+
+define_attribute {p:ad0_data[7]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 234)] Object 'p:ad0_data[7]' can not be found in current view.
+
+define_attribute {p:ad0_data[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 235)] Object 'p:ad0_data[7]' can not be found in current view.
+
+define_attribute {p:ad0_data[7]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 236)] Object 'p:ad0_data[7]' can not be found in current view.
+
+define_attribute {p:ad0_data[6]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 237)] Object 'p:ad0_data[6]' can not be found in current view.
+
+define_attribute {p:ad0_data[6]} {PAP_IO_LOC} {G18}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 238)] Object 'p:ad0_data[6]' can not be found in current view.
+
+define_attribute {p:ad0_data[6]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 239)] Object 'p:ad0_data[6]' can not be found in current view.
+
+define_attribute {p:ad0_data[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 240)] Object 'p:ad0_data[6]' can not be found in current view.
+
+define_attribute {p:ad0_data[6]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 241)] Object 'p:ad0_data[6]' can not be found in current view.
+
+define_attribute {p:ad0_data[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 242)] Object 'p:ad0_data[5]' can not be found in current view.
+
+define_attribute {p:ad0_data[5]} {PAP_IO_LOC} {J14}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 243)] Object 'p:ad0_data[5]' can not be found in current view.
+
+define_attribute {p:ad0_data[5]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 244)] Object 'p:ad0_data[5]' can not be found in current view.
+
+define_attribute {p:ad0_data[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 245)] Object 'p:ad0_data[5]' can not be found in current view.
+
+define_attribute {p:ad0_data[5]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 246)] Object 'p:ad0_data[5]' can not be found in current view.
+
+define_attribute {p:ad0_data[4]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 247)] Object 'p:ad0_data[4]' can not be found in current view.
+
+define_attribute {p:ad0_data[4]} {PAP_IO_LOC} {G17}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 248)] Object 'p:ad0_data[4]' can not be found in current view.
+
+define_attribute {p:ad0_data[4]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 249)] Object 'p:ad0_data[4]' can not be found in current view.
+
+define_attribute {p:ad0_data[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 250)] Object 'p:ad0_data[4]' can not be found in current view.
+
+define_attribute {p:ad0_data[4]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 251)] Object 'p:ad0_data[4]' can not be found in current view.
+
+define_attribute {p:ad0_data[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 252)] Object 'p:ad0_data[3]' can not be found in current view.
+
+define_attribute {p:ad0_data[3]} {PAP_IO_LOC} {H16}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 253)] Object 'p:ad0_data[3]' can not be found in current view.
+
+define_attribute {p:ad0_data[3]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 254)] Object 'p:ad0_data[3]' can not be found in current view.
+
+define_attribute {p:ad0_data[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 255)] Object 'p:ad0_data[3]' can not be found in current view.
+
+define_attribute {p:ad0_data[3]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 256)] Object 'p:ad0_data[3]' can not be found in current view.
+
+define_attribute {p:ad0_data[2]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 257)] Object 'p:ad0_data[2]' can not be found in current view.
+
+define_attribute {p:ad0_data[2]} {PAP_IO_LOC} {F18}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 258)] Object 'p:ad0_data[2]' can not be found in current view.
+
+define_attribute {p:ad0_data[2]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 259)] Object 'p:ad0_data[2]' can not be found in current view.
+
+define_attribute {p:ad0_data[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 260)] Object 'p:ad0_data[2]' can not be found in current view.
+
+define_attribute {p:ad0_data[2]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 261)] Object 'p:ad0_data[2]' can not be found in current view.
+
+define_attribute {p:ad0_data[1]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 262)] Object 'p:ad0_data[1]' can not be found in current view.
+
+define_attribute {p:ad0_data[1]} {PAP_IO_LOC} {J16}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 263)] Object 'p:ad0_data[1]' can not be found in current view.
+
+define_attribute {p:ad0_data[1]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 264)] Object 'p:ad0_data[1]' can not be found in current view.
+
+define_attribute {p:ad0_data[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 265)] Object 'p:ad0_data[1]' can not be found in current view.
+
+define_attribute {p:ad0_data[1]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 266)] Object 'p:ad0_data[1]' can not be found in current view.
+
+define_attribute {p:ad0_data[0]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 267)] Object 'p:ad0_data[0]' can not be found in current view.
+
+define_attribute {p:ad0_data[0]} {PAP_IO_LOC} {F17}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 268)] Object 'p:ad0_data[0]' can not be found in current view.
+
+define_attribute {p:ad0_data[0]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 269)] Object 'p:ad0_data[0]' can not be found in current view.
+
+define_attribute {p:ad0_data[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 270)] Object 'p:ad0_data[0]' can not be found in current view.
+
+define_attribute {p:ad0_data[0]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 271)] Object 'p:ad0_data[0]' can not be found in current view.
+
+define_attribute {p:ad0_clk} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 272)] Object 'p:ad0_clk' can not be found in current view.
+
+define_attribute {p:ad0_clk} {PAP_IO_LOC} {H17}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 273)] Object 'p:ad0_clk' can not be found in current view.
+
+define_attribute {p:ad0_clk} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 274)] Object 'p:ad0_clk' can not be found in current view.
+
+define_attribute {p:ad0_clk} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 275)] Object 'p:ad0_clk' can not be found in current view.
+
+define_attribute {p:ad0_clk} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 276)] Object 'p:ad0_clk' can not be found in current view.
+
+define_attribute {p:ad0_clk} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 277)] Object 'p:ad0_clk' can not be found in current view.
+
+define_attribute {p:ad0_clk} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 278)] Object 'p:ad0_clk' can not be found in current view.
+
+define_attribute {p:ad0_oe} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 279)] Object 'p:ad0_oe' can not be found in current view.
+
+define_attribute {p:ad0_oe} {PAP_IO_LOC} {K14}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 280)] Object 'p:ad0_oe' can not be found in current view.
+
+define_attribute {p:ad0_oe} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 281)] Object 'p:ad0_oe' can not be found in current view.
+
+define_attribute {p:ad0_oe} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 282)] Object 'p:ad0_oe' can not be found in current view.
+
+define_attribute {p:ad0_oe} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 283)] Object 'p:ad0_oe' can not be found in current view.
+
+define_attribute {p:ad0_oe} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 284)] Object 'p:ad0_oe' can not be found in current view.
+
+define_attribute {p:ad0_oe} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 285)] Object 'p:ad0_oe' can not be found in current view.
+
+define_attribute {p:ad0_otr} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 286)] Object 'p:ad0_otr' can not be found in current view.
+
+define_attribute {p:ad0_otr} {PAP_IO_LOC} {H14}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 287)] Object 'p:ad0_otr' can not be found in current view.
+
+define_attribute {p:ad0_otr} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 288)] Object 'p:ad0_otr' can not be found in current view.
+
+define_attribute {p:ad0_otr} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 289)] Object 'p:ad0_otr' can not be found in current view.
+
+define_attribute {p:ad0_otr} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 290)] Object 'p:ad0_otr' can not be found in current view.
+
+define_attribute {p:ad1_otr} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 292)] Object 'p:ad1_otr' can not be found in current view.
+
+define_attribute {p:ad1_otr} {PAP_IO_LOC} {M14}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 293)] Object 'p:ad1_otr' can not be found in current view.
+
+define_attribute {p:ad1_otr} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 294)] Object 'p:ad1_otr' can not be found in current view.
+
+define_attribute {p:ad1_otr} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 295)] Object 'p:ad1_otr' can not be found in current view.
+
+define_attribute {p:ad1_otr} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 296)] Object 'p:ad1_otr' can not be found in current view.
+
+define_attribute {p:ad1_clk} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 297)] Object 'p:ad1_clk' can not be found in current view.
+
+define_attribute {p:ad1_clk} {PAP_IO_LOC} {M13}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 298)] Object 'p:ad1_clk' can not be found in current view.
+
+define_attribute {p:ad1_clk} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 299)] Object 'p:ad1_clk' can not be found in current view.
+
+define_attribute {p:ad1_clk} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 300)] Object 'p:ad1_clk' can not be found in current view.
+
+define_attribute {p:ad1_clk} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 301)] Object 'p:ad1_clk' can not be found in current view.
+
+define_attribute {p:ad1_clk} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 302)] Object 'p:ad1_clk' can not be found in current view.
+
+define_attribute {p:ad1_clk} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 303)] Object 'p:ad1_clk' can not be found in current view.
+
+define_attribute {p:ad1_oe} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 304)] Object 'p:ad1_oe' can not be found in current view.
+
+define_attribute {p:ad1_oe} {PAP_IO_LOC} {M17}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 305)] Object 'p:ad1_oe' can not be found in current view.
+
+define_attribute {p:ad1_oe} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 306)] Object 'p:ad1_oe' can not be found in current view.
+
+define_attribute {p:ad1_oe} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 307)] Object 'p:ad1_oe' can not be found in current view.
+
+define_attribute {p:ad1_oe} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 308)] Object 'p:ad1_oe' can not be found in current view.
+
+define_attribute {p:ad1_oe} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 309)] Object 'p:ad1_oe' can not be found in current view.
+
+define_attribute {p:ad1_oe} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 310)] Object 'p:ad1_oe' can not be found in current view.
+
+define_attribute {p:ad1_data[9]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 311)] Object 'p:ad1_data[9]' can not be found in current view.
+
+define_attribute {p:ad1_data[9]} {PAP_IO_LOC} {L16}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 312)] Object 'p:ad1_data[9]' can not be found in current view.
+
+define_attribute {p:ad1_data[9]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 313)] Object 'p:ad1_data[9]' can not be found in current view.
+
+define_attribute {p:ad1_data[9]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 314)] Object 'p:ad1_data[9]' can not be found in current view.
+
+define_attribute {p:ad1_data[9]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 315)] Object 'p:ad1_data[9]' can not be found in current view.
+
+define_attribute {p:ad1_data[8]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 316)] Object 'p:ad1_data[8]' can not be found in current view.
+
+define_attribute {p:ad1_data[8]} {PAP_IO_LOC} {L13}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 317)] Object 'p:ad1_data[8]' can not be found in current view.
+
+define_attribute {p:ad1_data[8]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 318)] Object 'p:ad1_data[8]' can not be found in current view.
+
+define_attribute {p:ad1_data[8]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 319)] Object 'p:ad1_data[8]' can not be found in current view.
+
+define_attribute {p:ad1_data[8]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 320)] Object 'p:ad1_data[8]' can not be found in current view.
+
+define_attribute {p:ad1_data[7]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 321)] Object 'p:ad1_data[7]' can not be found in current view.
+
+define_attribute {p:ad1_data[7]} {PAP_IO_LOC} {M16}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 322)] Object 'p:ad1_data[7]' can not be found in current view.
+
+define_attribute {p:ad1_data[7]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 323)] Object 'p:ad1_data[7]' can not be found in current view.
+
+define_attribute {p:ad1_data[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 324)] Object 'p:ad1_data[7]' can not be found in current view.
+
+define_attribute {p:ad1_data[7]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 325)] Object 'p:ad1_data[7]' can not be found in current view.
+
+define_attribute {p:ad1_data[6]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 326)] Object 'p:ad1_data[6]' can not be found in current view.
+
+define_attribute {p:ad1_data[6]} {PAP_IO_LOC} {L12}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 327)] Object 'p:ad1_data[6]' can not be found in current view.
+
+define_attribute {p:ad1_data[6]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 328)] Object 'p:ad1_data[6]' can not be found in current view.
+
+define_attribute {p:ad1_data[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 329)] Object 'p:ad1_data[6]' can not be found in current view.
+
+define_attribute {p:ad1_data[6]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 330)] Object 'p:ad1_data[6]' can not be found in current view.
+
+define_attribute {p:ad1_data[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 331)] Object 'p:ad1_data[5]' can not be found in current view.
+
+define_attribute {p:ad1_data[5]} {PAP_IO_LOC} {L18}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 332)] Object 'p:ad1_data[5]' can not be found in current view.
+
+define_attribute {p:ad1_data[5]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 333)] Object 'p:ad1_data[5]' can not be found in current view.
+
+define_attribute {p:ad1_data[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 334)] Object 'p:ad1_data[5]' can not be found in current view.
+
+define_attribute {p:ad1_data[5]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 335)] Object 'p:ad1_data[5]' can not be found in current view.
+
+define_attribute {p:ad1_data[4]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 336)] Object 'p:ad1_data[4]' can not be found in current view.
+
+define_attribute {p:ad1_data[4]} {PAP_IO_LOC} {K18}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 337)] Object 'p:ad1_data[4]' can not be found in current view.
+
+define_attribute {p:ad1_data[4]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 338)] Object 'p:ad1_data[4]' can not be found in current view.
+
+define_attribute {p:ad1_data[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 339)] Object 'p:ad1_data[4]' can not be found in current view.
+
+define_attribute {p:ad1_data[4]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 340)] Object 'p:ad1_data[4]' can not be found in current view.
+
+define_attribute {p:ad1_data[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 341)] Object 'p:ad1_data[3]' can not be found in current view.
+
+define_attribute {p:ad1_data[3]} {PAP_IO_LOC} {L17}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 342)] Object 'p:ad1_data[3]' can not be found in current view.
+
+define_attribute {p:ad1_data[3]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 343)] Object 'p:ad1_data[3]' can not be found in current view.
+
+define_attribute {p:ad1_data[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 344)] Object 'p:ad1_data[3]' can not be found in current view.
+
+define_attribute {p:ad1_data[3]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 345)] Object 'p:ad1_data[3]' can not be found in current view.
+
+define_attribute {p:ad1_data[2]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 346)] Object 'p:ad1_data[2]' can not be found in current view.
+
+define_attribute {p:ad1_data[2]} {PAP_IO_LOC} {K17}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 347)] Object 'p:ad1_data[2]' can not be found in current view.
+
+define_attribute {p:ad1_data[2]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 348)] Object 'p:ad1_data[2]' can not be found in current view.
+
+define_attribute {p:ad1_data[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 349)] Object 'p:ad1_data[2]' can not be found in current view.
+
+define_attribute {p:ad1_data[2]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 350)] Object 'p:ad1_data[2]' can not be found in current view.
+
+define_attribute {p:ad1_data[1]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 351)] Object 'p:ad1_data[1]' can not be found in current view.
+
+define_attribute {p:ad1_data[1]} {PAP_IO_LOC} {J18}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 352)] Object 'p:ad1_data[1]' can not be found in current view.
+
+define_attribute {p:ad1_data[1]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 353)] Object 'p:ad1_data[1]' can not be found in current view.
+
+define_attribute {p:ad1_data[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 354)] Object 'p:ad1_data[1]' can not be found in current view.
+
+define_attribute {p:ad1_data[1]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 355)] Object 'p:ad1_data[1]' can not be found in current view.
+
+define_attribute {p:ad1_data[0]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 356)] Object 'p:ad1_data[0]' can not be found in current view.
+
+define_attribute {p:ad1_data[0]} {PAP_IO_LOC} {H18}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 357)] Object 'p:ad1_data[0]' can not be found in current view.
+
+define_attribute {p:ad1_data[0]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 358)] Object 'p:ad1_data[0]' can not be found in current view.
+
+define_attribute {p:ad1_data[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 359)] Object 'p:ad1_data[0]' can not be found in current view.
+
+define_attribute {p:ad1_data[0]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 360)] Object 'p:ad1_data[0]' can not be found in current view.
+
+define_attribute {p:ad2_clk} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 362)] Object 'p:ad2_clk' can not be found in current view.
+
+define_attribute {p:ad2_clk} {PAP_IO_LOC} {R14}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 363)] Object 'p:ad2_clk' can not be found in current view.
+
+define_attribute {p:ad2_clk} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 364)] Object 'p:ad2_clk' can not be found in current view.
+
+define_attribute {p:ad2_clk} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 365)] Object 'p:ad2_clk' can not be found in current view.
+
+define_attribute {p:ad2_clk} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 366)] Object 'p:ad2_clk' can not be found in current view.
+
+define_attribute {p:ad2_clk} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 367)] Object 'p:ad2_clk' can not be found in current view.
+
+define_attribute {p:ad2_clk} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 368)] Object 'p:ad2_clk' can not be found in current view.
+
+define_attribute {p:ad2_oe} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 369)] Object 'p:ad2_oe' can not be found in current view.
+
+define_attribute {p:ad2_oe} {PAP_IO_LOC} {R18}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 370)] Object 'p:ad2_oe' can not be found in current view.
+
+define_attribute {p:ad2_oe} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 371)] Object 'p:ad2_oe' can not be found in current view.
+
+define_attribute {p:ad2_oe} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 372)] Object 'p:ad2_oe' can not be found in current view.
+
+define_attribute {p:ad2_oe} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 373)] Object 'p:ad2_oe' can not be found in current view.
+
+define_attribute {p:ad2_oe} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 374)] Object 'p:ad2_oe' can not be found in current view.
+
+define_attribute {p:ad2_oe} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 375)] Object 'p:ad2_oe' can not be found in current view.
+
+define_attribute {p:ad2_otr} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 376)] Object 'p:ad2_otr' can not be found in current view.
+
+define_attribute {p:ad2_otr} {PAP_IO_LOC} {V10}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 377)] Object 'p:ad2_otr' can not be found in current view.
+
+define_attribute {p:ad2_otr} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 378)] Object 'p:ad2_otr' can not be found in current view.
+
+define_attribute {p:ad2_otr} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 379)] Object 'p:ad2_otr' can not be found in current view.
+
+define_attribute {p:ad2_otr} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 380)] Object 'p:ad2_otr' can not be found in current view.
+
+define_attribute {p:ad2_data[9]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 381)] Object 'p:ad2_data[9]' can not be found in current view.
+
+define_attribute {p:ad2_data[9]} {PAP_IO_LOC} {R17}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 382)] Object 'p:ad2_data[9]' can not be found in current view.
+
+define_attribute {p:ad2_data[9]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 383)] Object 'p:ad2_data[9]' can not be found in current view.
+
+define_attribute {p:ad2_data[9]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 384)] Object 'p:ad2_data[9]' can not be found in current view.
+
+define_attribute {p:ad2_data[9]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 385)] Object 'p:ad2_data[9]' can not be found in current view.
+
+define_attribute {p:ad2_data[8]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 386)] Object 'p:ad2_data[8]' can not be found in current view.
+
+define_attribute {p:ad2_data[8]} {PAP_IO_LOC} {U10}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 387)] Object 'p:ad2_data[8]' can not be found in current view.
+
+define_attribute {p:ad2_data[8]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 388)] Object 'p:ad2_data[8]' can not be found in current view.
+
+define_attribute {p:ad2_data[8]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 389)] Object 'p:ad2_data[8]' can not be found in current view.
+
+define_attribute {p:ad2_data[8]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 390)] Object 'p:ad2_data[8]' can not be found in current view.
+
+define_attribute {p:ad2_data[7]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 391)] Object 'p:ad2_data[7]' can not be found in current view.
+
+define_attribute {p:ad2_data[7]} {PAP_IO_LOC} {P14}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 392)] Object 'p:ad2_data[7]' can not be found in current view.
+
+define_attribute {p:ad2_data[7]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 393)] Object 'p:ad2_data[7]' can not be found in current view.
+
+define_attribute {p:ad2_data[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 394)] Object 'p:ad2_data[7]' can not be found in current view.
+
+define_attribute {p:ad2_data[7]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 395)] Object 'p:ad2_data[7]' can not be found in current view.
+
+define_attribute {p:ad2_data[6]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 396)] Object 'p:ad2_data[6]' can not be found in current view.
+
+define_attribute {p:ad2_data[6]} {PAP_IO_LOC} {N14}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 397)] Object 'p:ad2_data[6]' can not be found in current view.
+
+define_attribute {p:ad2_data[6]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 398)] Object 'p:ad2_data[6]' can not be found in current view.
+
+define_attribute {p:ad2_data[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 399)] Object 'p:ad2_data[6]' can not be found in current view.
+
+define_attribute {p:ad2_data[6]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 400)] Object 'p:ad2_data[6]' can not be found in current view.
+
+define_attribute {p:ad2_data[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 401)] Object 'p:ad2_data[5]' can not be found in current view.
+
+define_attribute {p:ad2_data[5]} {PAP_IO_LOC} {P13}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 402)] Object 'p:ad2_data[5]' can not be found in current view.
+
+define_attribute {p:ad2_data[5]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 403)] Object 'p:ad2_data[5]' can not be found in current view.
+
+define_attribute {p:ad2_data[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 404)] Object 'p:ad2_data[5]' can not be found in current view.
+
+define_attribute {p:ad2_data[5]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 405)] Object 'p:ad2_data[5]' can not be found in current view.
+
+define_attribute {p:ad2_data[4]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 406)] Object 'p:ad2_data[4]' can not be found in current view.
+
+define_attribute {p:ad2_data[4]} {PAP_IO_LOC} {N13}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 407)] Object 'p:ad2_data[4]' can not be found in current view.
+
+define_attribute {p:ad2_data[4]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 408)] Object 'p:ad2_data[4]' can not be found in current view.
+
+define_attribute {p:ad2_data[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 409)] Object 'p:ad2_data[4]' can not be found in current view.
+
+define_attribute {p:ad2_data[4]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 410)] Object 'p:ad2_data[4]' can not be found in current view.
+
+define_attribute {p:ad2_data[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 411)] Object 'p:ad2_data[3]' can not be found in current view.
+
+define_attribute {p:ad2_data[3]} {PAP_IO_LOC} {T13}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 412)] Object 'p:ad2_data[3]' can not be found in current view.
+
+define_attribute {p:ad2_data[3]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 413)] Object 'p:ad2_data[3]' can not be found in current view.
+
+define_attribute {p:ad2_data[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 414)] Object 'p:ad2_data[3]' can not be found in current view.
+
+define_attribute {p:ad2_data[3]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 415)] Object 'p:ad2_data[3]' can not be found in current view.
+
+define_attribute {p:ad2_data[2]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 416)] Object 'p:ad2_data[2]' can not be found in current view.
+
+define_attribute {p:ad2_data[2]} {PAP_IO_LOC} {V13}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 417)] Object 'p:ad2_data[2]' can not be found in current view.
+
+define_attribute {p:ad2_data[2]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 418)] Object 'p:ad2_data[2]' can not be found in current view.
+
+define_attribute {p:ad2_data[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 419)] Object 'p:ad2_data[2]' can not be found in current view.
+
+define_attribute {p:ad2_data[2]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 420)] Object 'p:ad2_data[2]' can not be found in current view.
+
+define_attribute {p:ad2_data[1]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 421)] Object 'p:ad2_data[1]' can not be found in current view.
+
+define_attribute {p:ad2_data[1]} {PAP_IO_LOC} {R13}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 422)] Object 'p:ad2_data[1]' can not be found in current view.
+
+define_attribute {p:ad2_data[1]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 423)] Object 'p:ad2_data[1]' can not be found in current view.
+
+define_attribute {p:ad2_data[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 424)] Object 'p:ad2_data[1]' can not be found in current view.
+
+define_attribute {p:ad2_data[1]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 425)] Object 'p:ad2_data[1]' can not be found in current view.
+
+define_attribute {p:ad2_data[0]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 426)] Object 'p:ad2_data[0]' can not be found in current view.
+
+define_attribute {p:ad2_data[0]} {PAP_IO_LOC} {U13}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 427)] Object 'p:ad2_data[0]' can not be found in current view.
+
+define_attribute {p:ad2_data[0]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 428)] Object 'p:ad2_data[0]' can not be found in current view.
+
+define_attribute {p:ad2_data[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 429)] Object 'p:ad2_data[0]' can not be found in current view.
+
+define_attribute {p:ad2_data[0]} {PAP_IO_NONE} {TRUE}
+	E: ConstraintEditor-0046: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 430)] Object 'p:ad2_data[0]' can not be found in current view.
+
+define_attribute {p:sclk} {PAP_IO_LOC} {A2}
+
+	C: ConstraintEditor-2002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 29)] | Port sclk has been placed at location A2, whose type is share pin.
+
+define_attribute {p:cs_n} {PAP_IO_LOC} {B2}
+
+	C: ConstraintEditor-2002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 35)] | Port cs_n has been placed at location B2, whose type is share pin.
+
+define_attribute {p:mosi} {PAP_IO_LOC} {B1}
+
+	C: ConstraintEditor-2002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 41)] | Port mosi has been placed at location B1, whose type is share pin.
+
+define_attribute {p:miso} {PAP_IO_LOC} {A1}
+
+	C: ConstraintEditor-2002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/SPI_ADC_ADrate.fdc(line number: 47)] | Port miso has been placed at location A1, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+get_ports sys_clk
+	C: Timing-4002: Port 'sys_clk' is not found.
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'done' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rec_data[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rec_data[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rec_data[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rec_data[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rec_data[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rec_data[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rec_data[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rec_data[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rec_ready' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'send_ready' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'clk' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'mode[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'mode[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'send_data[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'send_data[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'send_data[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'send_data[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'send_data[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'send_data[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'send_data[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'send_data[7]' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

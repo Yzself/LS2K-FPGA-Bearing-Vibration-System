@@ -1,0 +1,498 @@
+//
+// Generated (version 2021.4-SP1.2<build 96435>) at Sat Apr 19 12:57:03 2025
+//
+
+module pllclk
+(
+    input clkin1,
+    input pll_rst,
+    output clkout1
+);
+    wire clkout0;
+    wire clkout0_2pad;
+    wire clkout2;
+    wire clkout3;
+    wire clkout4;
+    wire clkout5;
+    wire clkswitch_flag;
+    wire pll_lock;
+
+    GTP_PLL_E1 /* u_pll_e1 */ #(
+            .CLKIN_FREQ(50), 
+            .PFDEN_EN("FALSE"), 
+            .VCOCLK_DIV2(1'b0), 
+            .DYNAMIC_RATIOI_EN("FALSE"), 
+            .DYNAMIC_RATIO0_EN("FALSE"), 
+            .DYNAMIC_RATIO1_EN("FALSE"), 
+            .DYNAMIC_RATIO2_EN("FALSE"), 
+            .DYNAMIC_RATIO3_EN("FALSE"), 
+            .DYNAMIC_RATIO4_EN("FALSE"), 
+            .DYNAMIC_RATIOF_EN("FALSE"), 
+            .STATIC_RATIOI(2), 
+            .STATIC_RATIO0(6), 
+            .STATIC_RATIO1(12), 
+            .STATIC_RATIO2(12), 
+            .STATIC_RATIO3(16), 
+            .STATIC_RATIO4(16), 
+            .STATIC_RATIOF(24), 
+            .DYNAMIC_DUTY0_EN("FALSE"), 
+            .DYNAMIC_DUTY1_EN("FALSE"), 
+            .DYNAMIC_DUTY2_EN("FALSE"), 
+            .DYNAMIC_DUTY3_EN("FALSE"), 
+            .DYNAMIC_DUTY4_EN("FALSE"), 
+            .DYNAMIC_DUTYF_EN("FALSE"), 
+            .STATIC_DUTY0(6), 
+            .STATIC_DUTY1(12), 
+            .STATIC_DUTY2(12), 
+            .STATIC_DUTY3(16), 
+            .STATIC_DUTY4(16), 
+            .STATIC_DUTYF(24), 
+            .PHASE_ADJUST0_EN("TRUE"), 
+            .PHASE_ADJUST1_EN("TRUE"), 
+            .PHASE_ADJUST2_EN("TRUE"), 
+            .PHASE_ADJUST3_EN("TRUE"), 
+            .PHASE_ADJUST4_EN("TRUE"), 
+            .DYNAMIC_PHASE0_EN("FALSE"), 
+            .DYNAMIC_PHASE1_EN("FALSE"), 
+            .DYNAMIC_PHASE2_EN("FALSE"), 
+            .DYNAMIC_PHASE3_EN("FALSE"), 
+            .DYNAMIC_PHASE4_EN("FALSE"), 
+            .DYNAMIC_PHASEF_EN("FALSE"), 
+            .STATIC_PHASE0(0), 
+            .STATIC_PHASE1(0), 
+            .STATIC_PHASE2(0), 
+            .STATIC_PHASE3(0), 
+            .STATIC_PHASE4(0), 
+            .STATIC_PHASEF(0), 
+            .STATIC_CPHASE0(2), 
+            .STATIC_CPHASE1(2), 
+            .STATIC_CPHASE2(2), 
+            .STATIC_CPHASE3(2), 
+            .STATIC_CPHASE4(2), 
+            .STATIC_CPHASEF(2), 
+            .CLK_CAS0_EN("FALSE"), 
+            .CLK_CAS1_EN("FALSE"), 
+            .CLK_CAS2_EN("FALSE"), 
+            .CLK_CAS3_EN("FALSE"), 
+            .CLK_CAS4_EN("FALSE"), 
+            .CLKOUT5_SEL(0), 
+            .CLKIN_BYPASS_EN("FALSE"), 
+            .CLKOUT0_SYN_EN("FALSE"), 
+            .CLKOUT0_EXT_SYN_EN("FALSE"), 
+            .CLKOUT1_SYN_EN("FALSE"), 
+            .CLKOUT2_SYN_EN("FALSE"), 
+            .CLKOUT3_SYN_EN("FALSE"), 
+            .CLKOUT4_SYN_EN("FALSE"), 
+            .CLKOUT5_SYN_EN("FALSE"), 
+            .INTERNAL_FB("ENABLE"), 
+            .EXTERNAL_FB("DISABLE"), 
+            .BANDWIDTH("OPTIMIZED"), 
+            .RSTODIV_PHASE_EN("FALSE"), 
+            .SIM_DEVICE("PGL22G"))
+        u_pll_e1 (
+            .CPHASE0 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .CPHASE1 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .CPHASE2 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .CPHASE3 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .CPHASE4 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .CPHASEF (),
+            .DUTY0 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .DUTY1 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .DUTY2 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .DUTY3 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .DUTY4 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .DUTYF (),
+            .PHASE0 ({1'b0, 1'b0, 1'b0}),
+            .PHASE1 ({1'b0, 1'b0, 1'b0}),
+            .PHASE2 ({1'b0, 1'b0, 1'b0}),
+            .PHASE3 ({1'b0, 1'b0, 1'b0}),
+            .PHASE4 ({1'b0, 1'b0, 1'b0}),
+            .PHASEF (),
+            .RATIO0 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .RATIO1 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .RATIO2 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .RATIO3 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .RATIO4 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .RATIOF ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .RATIOI ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),
+            .CLKOUT0 (clkout0),
+            .CLKOUT0_EXT (clkout0_2pad),
+            .CLKOUT1 (clkout1),
+            .CLKOUT2 (clkout2),
+            .CLKOUT3 (clkout3),
+            .CLKOUT4 (clkout4),
+            .CLKOUT5 (clkout5),
+            .CLKSWITCH_FLAG (clkswitch_flag),
+            .LOCK (pll_lock),
+            .CLKFB (1'b0),
+            .CLKIN1 (clkin1),
+            .CLKIN2 (1'b0),
+            .CLKIN_SEL (1'b0),
+            .CLKIN_SEL_EN (1'b0),
+            .CLKOUT0_EXT_SYN (1'b0),
+            .CLKOUT0_SYN (1'b0),
+            .CLKOUT1_SYN (1'b0),
+            .CLKOUT2_SYN (1'b0),
+            .CLKOUT3_SYN (1'b0),
+            .CLKOUT4_SYN (1'b0),
+            .CLKOUT5_SYN (1'b0),
+            .PFDEN (1'b0),
+            .PLL_PWD (1'b0),
+            .RST (pll_rst),
+            .RSTODIV_PHASE (1'b0));
+	// ../ipcore/pllclk/pllclk.v:245
+
+
+endmodule
+
+
+module hs_dual_ad
+(
+    input [9:0] ad0_data,
+    input [9:0] ad1_data,
+    input ad0_otr,
+    input ad1_otr
+);
+
+
+endmodule
+
+
+module top_control
+(
+    input [9:0] ad0_data,
+    input [9:0] ad1_data,
+    input ad0_otr,
+    input ad1_otr,
+    input cs_n,
+    input mosi,
+    input rst,
+    input sclk,
+    input sys_clk,
+    output ad0_clk,
+    output ad0_oe,
+    output ad1_clk,
+    output ad1_oe,
+    output led,
+    output miso,
+    output test
+);
+	// SDC constraint : (object sclk) (id 1000) (clock top_control|sclk) (inferred)
+    wire N7;
+    wire clkadc1;
+    wire [9:0] nt_ad0_data;
+(* PAP_MARK_DEBUG="1" *)    wire nt_ad0_otr;
+    wire [9:0] nt_ad1_data;
+(* PAP_MARK_DEBUG="1" *)    wire nt_ad1_otr;
+    wire nt_cs_n;
+    wire nt_mosi;
+    wire nt_rst;
+(* PAP_CLOCK_DEDICATED_ROUTE="FALSE" *)    wire nt_sclk;
+    wire nt_sys_clk;
+
+    GTP_GRS GRS_INST (
+            .GRS_N (1'b1));
+
+    GTP_LUT1 /* N7 */ #(
+            .INIT(2'b01))
+        N7_vname (
+            .Z (N7),
+            .I0 (nt_rst));
+    // defparam N7_vname.orig_name = N7;
+	// LUT = ~I0 ;
+
+(* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="H17", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="SLOW" *)    GTP_OUTBUF /* ad0_clk_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        ad0_clk_obuf (
+            .O (ad0_clk),
+            .I (clkadc1));
+	// ../../rtl/top_control.v:16
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="F17", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad0_data_ibuf[0]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad0_data_ibuf[0]  (
+            .O (nt_ad0_data[0]),
+            .I (ad0_data[0]));
+	// ../../rtl/top_control.v:14
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="J16", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad0_data_ibuf[1]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad0_data_ibuf[1]  (
+            .O (nt_ad0_data[1]),
+            .I (ad0_data[1]));
+	// ../../rtl/top_control.v:14
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="F18", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad0_data_ibuf[2]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad0_data_ibuf[2]  (
+            .O (nt_ad0_data[2]),
+            .I (ad0_data[2]));
+	// ../../rtl/top_control.v:14
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="H16", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad0_data_ibuf[3]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad0_data_ibuf[3]  (
+            .O (nt_ad0_data[3]),
+            .I (ad0_data[3]));
+	// ../../rtl/top_control.v:14
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="G17", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad0_data_ibuf[4]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad0_data_ibuf[4]  (
+            .O (nt_ad0_data[4]),
+            .I (ad0_data[4]));
+	// ../../rtl/top_control.v:14
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="J14", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad0_data_ibuf[5]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad0_data_ibuf[5]  (
+            .O (nt_ad0_data[5]),
+            .I (ad0_data[5]));
+	// ../../rtl/top_control.v:14
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="G18", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad0_data_ibuf[6]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad0_data_ibuf[6]  (
+            .O (nt_ad0_data[6]),
+            .I (ad0_data[6]));
+	// ../../rtl/top_control.v:14
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="J15", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad0_data_ibuf[7]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad0_data_ibuf[7]  (
+            .O (nt_ad0_data[7]),
+            .I (ad0_data[7]));
+	// ../../rtl/top_control.v:14
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="H13", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad0_data_ibuf[8]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad0_data_ibuf[8]  (
+            .O (nt_ad0_data[8]),
+            .I (ad0_data[8]));
+	// ../../rtl/top_control.v:14
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="K15", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad0_data_ibuf[9]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad0_data_ibuf[9]  (
+            .O (nt_ad0_data[9]),
+            .I (ad0_data[9]));
+	// ../../rtl/top_control.v:14
+
+(* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="K14", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="SLOW" *)    GTP_OUTBUF /* ad0_oe_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        ad0_oe_obuf (
+            .O (ad0_oe),
+            .I (1'b0));
+	// ../../rtl/top_control.v:17
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="H14", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* ad0_otr_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        ad0_otr_ibuf (
+            .O (nt_ad0_otr),
+            .I (ad0_otr));
+	// ../../rtl/top_control.v:15
+
+(* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="M13", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="SLOW" *)    GTP_OUTBUF /* ad1_clk_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        ad1_clk_obuf (
+            .O (ad1_clk),
+            .I (clkadc1));
+	// ../../rtl/top_control.v:21
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="H18", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad1_data_ibuf[0]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad1_data_ibuf[0]  (
+            .O (nt_ad1_data[0]),
+            .I (ad1_data[0]));
+	// ../../rtl/top_control.v:19
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="J18", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad1_data_ibuf[1]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad1_data_ibuf[1]  (
+            .O (nt_ad1_data[1]),
+            .I (ad1_data[1]));
+	// ../../rtl/top_control.v:19
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="K17", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad1_data_ibuf[2]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad1_data_ibuf[2]  (
+            .O (nt_ad1_data[2]),
+            .I (ad1_data[2]));
+	// ../../rtl/top_control.v:19
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="L17", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad1_data_ibuf[3]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad1_data_ibuf[3]  (
+            .O (nt_ad1_data[3]),
+            .I (ad1_data[3]));
+	// ../../rtl/top_control.v:19
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="K18", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad1_data_ibuf[4]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad1_data_ibuf[4]  (
+            .O (nt_ad1_data[4]),
+            .I (ad1_data[4]));
+	// ../../rtl/top_control.v:19
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="L18", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad1_data_ibuf[5]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad1_data_ibuf[5]  (
+            .O (nt_ad1_data[5]),
+            .I (ad1_data[5]));
+	// ../../rtl/top_control.v:19
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="L12", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad1_data_ibuf[6]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad1_data_ibuf[6]  (
+            .O (nt_ad1_data[6]),
+            .I (ad1_data[6]));
+	// ../../rtl/top_control.v:19
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="M16", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad1_data_ibuf[7]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad1_data_ibuf[7]  (
+            .O (nt_ad1_data[7]),
+            .I (ad1_data[7]));
+	// ../../rtl/top_control.v:19
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="L13", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad1_data_ibuf[8]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad1_data_ibuf[8]  (
+            .O (nt_ad1_data[8]),
+            .I (ad1_data[8]));
+	// ../../rtl/top_control.v:19
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="L16", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* \ad1_data_ibuf[9]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \ad1_data_ibuf[9]  (
+            .O (nt_ad1_data[9]),
+            .I (ad1_data[9]));
+	// ../../rtl/top_control.v:19
+
+(* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="M17", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="SLOW" *)    GTP_OUTBUF /* ad1_oe_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        ad1_oe_obuf (
+            .O (ad1_oe),
+            .I (1'b0));
+	// ../../rtl/top_control.v:22
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="M14", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* ad1_otr_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        ad1_otr_ibuf (
+            .O (nt_ad1_otr),
+            .I (ad1_otr));
+	// ../../rtl/top_control.v:20
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="B2", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_PULLUP="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* cs_n_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        cs_n_ibuf (
+            .O (nt_cs_n),
+            .I (cs_n));
+	// ../../rtl/top_control.v:10
+
+(* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="G1", PAP_IO_VCCIO="1.5", PAP_IO_STANDARD="LVCMOS15", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="SLOW" *)    GTP_OUTBUF /* led_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        led_obuf (
+            .O (led),
+            .I (1'b1));
+	// ../../rtl/top_control.v:11
+
+(* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="A1", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* miso_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        miso_obuf (
+            .O (miso),
+            .I (1'b0));
+	// ../../rtl/top_control.v:8
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="B1", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_PULLUP="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* mosi_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        mosi_ibuf (
+            .O (nt_mosi),
+            .I (mosi));
+	// ../../rtl/top_control.v:7
+
+    pllclk pll_clk (
+            .clkout1 (clkadc1),
+            .clkin1 (nt_sys_clk),
+            .pll_rst (N7));
+	// ../../rtl/top_control.v:54
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="G5", PAP_IO_VCCIO="1.5", PAP_IO_STANDARD="LVCMOS15", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* rst_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        rst_ibuf (
+            .O (nt_rst),
+            .I (rst));
+	// ../../rtl/top_control.v:5
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="A2", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_PULLUP="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* sclk_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        sclk_ibuf (
+            .O (nt_sclk),
+            .I (sclk));
+	// ../../rtl/top_control.v:9
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="B5", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    (* PAP_DONT_TOUCH *) GTP_INBUF /* sys_clk_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        sys_clk_ibuf (
+            .O (nt_sys_clk),
+            .I (sys_clk));
+	// ../../rtl/top_control.v:4
+
+(* PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="U13", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="4", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* test_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        test_obuf (
+            .O (test),
+            .I (1'b0));
+	// ../../rtl/top_control.v:12
+
+    hs_dual_ad u_hs_dual_ad (
+            .ad0_data (nt_ad0_data),
+            .ad1_data (nt_ad1_data),
+            .ad0_otr (nt_ad0_otr),
+            .ad1_otr (nt_ad1_otr));
+	// ../../rtl/top_control.v:26
+
+
+endmodule
+

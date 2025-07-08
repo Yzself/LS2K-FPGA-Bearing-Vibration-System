@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="compile_source_files" title="Design Files Read" column_number="2">
+        <column_headers>
+            <data>File Name</data>
+            <data>File Type</data>
+        </column_headers>
+        <row>
+            <data>D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/top.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/cnt.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/cnt_negedge.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/pulse_conver.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/adc_clk_divider.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.idf</data>
+            <data>IP</data>
+        </row>
+    </table>
+    <table id="compile_runtime" title="Compile Runtime &amp; Memory" column_number="6">
+        <column_headers>
+            <data>Cpu Time (s)</data>
+            <data>Real Time (s)</data>
+            <data>Peak Memory (B)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>3</data>
+            <data>6</data>
+            <data>105,951,232</data>
+            <data>WINDOWS 10 x86_64</data>
+            <data>11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz</data>
+            <data>15</data>
+        </row>
+    </table>
+    <table id="compile_messages" title="Compile Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="4">Enable Verilog2k features and keywords</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/top.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/top.v(line number: 3)] Analyzing module top (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/cnt.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/cnt.v(line number: 38)] Analyzing module cnt (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/cnt_negedge.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/cnt_negedge.v(line number: 5)] Analyzing module cnt_negedge (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/pulse_conver.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/pulse_conver.v(line number: 4)] Analyzing module pulse_conver (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 13)] Analyzing module spi_slave_driver (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/adc_clk_divider.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/adc_clk_divider.v(line number: 1)] Analyzing module adc_clk_divider (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 20)] Analyzing module pllclk (library work)</data>
+        </row>
+        <row>
+            <data message="4">Module &quot;top&quot; is set as top module.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/top.v(line number: 3)] Elaborating module top</data>
+        </row>
+        <row>
+            <data message="4">Module instance {top} parameter value:
+    DEVICE_IP = 8'b00010110
+    DEVICE_Set = 8'b00111111
+    DEVICE_Get = 8'b11110110
+    DEVICE_Div = 8'b01110100
+    START_ID_H = 8'b10101010
+    START_ID_L = 8'b01010101
+    SEPARATOR1_H = 8'b01011010
+    SEPARATOR1_L = 8'b10100101
+    SEPARATOR2_H = 8'b01111011
+    SEPARATOR2_L = 8'b10001001
+    END_ID_H = 8'b11111111
+    END_ID_L = 8'b11101110
+    Buffer_Length = 32'b00000000000000000000010000000000
+    DEFAULT_DIV_CFG = 32'b00000000000000000000000111110100</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/top.v(line number: 99)] Elaborating instance SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 13)] Elaborating module spi_slave_driver</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 244)] Elaborating instance PC0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/pulse_conver.v(line number: 4)] Elaborating module pulse_conver</data>
+        </row>
+        <row>
+            <data message="4">Module instance {top.SPI_SLAVE.PC0} parameter value:
+    width = 32'b00000000000000000000000000000011
+    filt_value = 3'b100
+    default_value = 32'b00000000000000000000000000000000</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 251)] Elaborating instance PC1</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/pulse_conver.v(line number: 4)] Elaborating module pulse_conver</data>
+        </row>
+        <row>
+            <data message="4">Module instance {top.SPI_SLAVE.PC1} parameter value:
+    width = 32'b00000000000000000000000000000011
+    filt_value = 3'b100
+    default_value = 32'b00000000000000000000000000000000</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 258)] Elaborating instance PC2</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/pulse_conver.v(line number: 4)] Elaborating module pulse_conver</data>
+        </row>
+        <row>
+            <data message="4">Module instance {top.SPI_SLAVE.PC2} parameter value:
+    width = 32'b00000000000000000000000000000011
+    filt_value = 3'b001
+    default_value = 32'b00000000000000000000000000000000</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 268)] Elaborating instance CNT0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/cnt_negedge.v(line number: 5)] Elaborating module cnt_negedge</data>
+        </row>
+        <row>
+            <data message="4">Module instance {top.SPI_SLAVE.CNT0} parameter value:
+    dir = 32'b00000000000000000000000000000001
+    en = 32'b00000000000000000000000000000000
+    limit = 32'b00000000000000000000000000000000
+    var_option = 32'b00000000000000000000000000000000
+    var = 32'b00000000000000000000000000000000
+    dual = 32'b00000000000000000000000000000000
+    done_reg = 32'b00000000000000000000000000000000
+    max_value = 32'b00000000000000000000000000001000
+    width = 00000000000000000000000000000011</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 279)] Elaborating instance CNT1</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/cnt.v(line number: 38)] Elaborating module cnt</data>
+        </row>
+        <row>
+            <data message="4">Module instance {top.SPI_SLAVE.CNT1} parameter value:
+    dir = 32'b00000000000000000000000000000001
+    en = 32'b00000000000000000000000000000000
+    limit = 32'b00000000000000000000000000000000
+    var_option = 32'b00000000000000000000000000000000
+    var = 32'b00000000000000000000000000000000
+    dual = 32'b00000000000000000000000000000000
+    done_reg = 32'b00000000000000000000000000000000
+    max_value = 32'b00000000000000000000000000001000
+    width = 00000000000000000000000000000011</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 290)] Elaborating instance CNT2</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/cnt_negedge.v(line number: 5)] Elaborating module cnt_negedge</data>
+        </row>
+        <row>
+            <data message="4">Module instance {top.SPI_SLAVE.CNT2} parameter value:
+    dir = 32'b00000000000000000000000000000001
+    en = 32'b00000000000000000000000000000000
+    limit = 32'b00000000000000000000000000000000
+    var_option = 32'b00000000000000000000000000000000
+    var = 32'b00000000000000000000000000000000
+    dual = 32'b00000000000000000000000000000000
+    done_reg = 32'b00000000000000000000000000000000
+    max_value = 32'b00000000000000000000000000001000
+    width = 00000000000000000000000000000011</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 301)] Elaborating instance CNT3</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/cnt_negedge.v(line number: 5)] Elaborating module cnt_negedge</data>
+        </row>
+        <row>
+            <data message="4">Module instance {top.SPI_SLAVE.CNT3} parameter value:
+    dir = 32'b00000000000000000000000000000001
+    en = 32'b00000000000000000000000000000000
+    limit = 32'b00000000000000000000000000000000
+    var_option = 32'b00000000000000000000000000000000
+    var = 32'b00000000000000000000000000000000
+    dual = 32'b00000000000000000000000000000000
+    done_reg = 32'b00000000000000000000000000000000
+    max_value = 32'b00000000000000000000000000001000
+    width = 00000000000000000000000000000011</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 268)] Give initial value 0 for the no drive pin var_value in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 268)] Give initial value 0 for the no drive pin load_value in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 268)] Give initial value 0 for the no drive pin load in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 268)] Give initial value 0 for the no drive pin cnt_en in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 268)] Give initial value 0 for the no drive pin inc in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 268)] Give initial value 0 for the no drive pin dec in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 279)] Give initial value 0 for the no drive pin var_value in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 279)] Give initial value 0 for the no drive pin load_value in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 279)] Give initial value 0 for the no drive pin load in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 279)] Give initial value 0 for the no drive pin cnt_en in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 279)] Give initial value 0 for the no drive pin inc in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 279)] Give initial value 0 for the no drive pin dec in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 290)] Give initial value 0 for the no drive pin var_value in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 290)] Give initial value 0 for the no drive pin load_value in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 290)] Give initial value 0 for the no drive pin load in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 290)] Give initial value 0 for the no drive pin cnt_en in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 290)] Give initial value 0 for the no drive pin inc in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 290)] Give initial value 0 for the no drive pin dec in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 301)] Give initial value 0 for the no drive pin var_value in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 301)] Give initial value 0 for the no drive pin load_value in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 301)] Give initial value 0 for the no drive pin load in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 301)] Give initial value 0 for the no drive pin cnt_en in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 301)] Give initial value 0 for the no drive pin inc in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2023: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/spi_slave_driver.v(line number: 301)] Give initial value 0 for the no drive pin dec in module instance top.SPI_SLAVE</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/top.v(line number: 265)] Elaborating instance pll_clk</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 20)] Elaborating module pllclk</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 249)] Elaborating instance u_pll_e1</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 126)] Net clkfb in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 129)] Net pfden in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 130)] Net clkout0_gate in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 131)] Net clkout0_2pad_gate in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 132)] Net clkout1_gate in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 133)] Net clkout2_gate in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 134)] Net clkout3_gate in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 135)] Net clkout4_gate in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 136)] Net clkout5_gate in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 137)] Net dyn_idiv in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 138)] Net dyn_odiv0 in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 139)] Net dyn_odiv1 in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 140)] Net dyn_odiv2 in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 141)] Net dyn_odiv3 in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 142)] Net dyn_odiv4 in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 143)] Net dyn_fdiv in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 144)] Net dyn_duty0 in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 145)] Net dyn_duty1 in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 146)] Net dyn_duty2 in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 147)] Net dyn_duty3 in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2021: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 148)] Net dyn_duty4 in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[0] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[1] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[2] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[3] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[4] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[5] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[6] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[7] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[8] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[9] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[10] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[11] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 149)] Net dyn_phase0[12] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[0] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[1] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[2] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[3] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[4] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[5] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[6] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[7] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[8] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[9] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[10] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[11] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 150)] Net dyn_phase1[12] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[0] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[1] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[2] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[3] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[4] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[5] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[6] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[7] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[8] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[9] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[10] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[11] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 151)] Net dyn_phase2[12] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[0] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[1] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[2] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[3] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[4] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[5] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[6] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[7] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[8] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[9] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[10] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[11] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 152)] Net dyn_phase3[12] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[0] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[1] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[2] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[3] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[4] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[5] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[6] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[7] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[8] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[9] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[10] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[11] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj/ipcore/pllclk/pllclk.v(line number: 153)] Net dyn_phase4[12] in pllclk(original module pllclk) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/top.v(line number: 275)] Elaborating instance u_divider</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/adc_clk_divider.v(line number: 1)] Elaborating module adc_clk_divider</data>
+        </row>
+        <row>
+            <data message="4">Module instance {top.u_divider} parameter value:
+    DIV_FRAC = 32'b00000000000000000000000000000001</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2024: [D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/rtl/top.v(line number: 3)] Give an initial value for the no drive output pin test in graph of sdm module top</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: Found Ram ad0_buffer, depth=1024, width=10.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: Found Ram ad1_buffer, depth=1024, width=10.</data>
+        </row>
+        <row>
+            <data message="4">Sdm-0001: Found Ram ad2_buffer, depth=1024, width=10.</data>
+        </row>
+        <row>
+            <data message="4">FSM fpga_state_fsm[2:0] inferred.</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'N7'.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N7 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Adm-6003: Trying to disconnect un-connected pin 'Z[0]' of instance 'N7'.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N7 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N228 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N164 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N196 (bmsWIDEMUX).</data>
+        </row>
+    </table>
+    <general_container id="compile_settings">
+        <table_container>
+            <table id="compile_settings" title="Compile Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PGL22G-6MBG324</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>top</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>Verilog</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>SystemVerilog</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Allow Duplicate Modules</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Include Path Order: 
+ (Relative to Verilog File)</data>
+                        <data>D:/HuaweiMoveData/Users/quan9/Desktop/OSIC/prj/FPGA/08_SPI_ADC_ADrate/prj	</data>
+                    </row>
+                    <row>
+                        <data>Parameters/Generics</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Compiler Directives</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Loop Limit</data>
+                        <data>2000</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Options</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>FSM Compiler</data>
+                        <data>auto</data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+</tables>

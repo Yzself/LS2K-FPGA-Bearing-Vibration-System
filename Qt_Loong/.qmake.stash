@@ -1,0 +1,21 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 8
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 3
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /opt/LoongOS/v0.1/sysroots/loongarch64-Loongson-linux/usr/include/c++/8.3.0 \
+    /opt/LoongOS/v0.1/sysroots/loongarch64-Loongson-linux/usr/include/c++/8.3.0/backward \
+    /opt/LoongOS/v0.1/sysroots/x86_64-loongsonsdk-linux/usr/lib/loongarch64-Loongson-linux/gcc/loongarch64-Loongson-linux/8.3.0/include \
+    /opt/LoongOS/v0.1/sysroots/x86_64-loongsonsdk-linux/usr/lib/loongarch64-Loongson-linux/gcc/loongarch64-Loongson-linux/8.3.0/include-fixed \
+    /opt/LoongOS/v0.1/sysroots/loongarch64-Loongson-linux/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /opt/LoongOS/v0.1/sysroots/x86_64-loongsonsdk-linux/usr/lib/loongarch64-Loongson-linux/gcc/loongarch64-Loongson-linux/8.3.0 \
+    /opt/LoongOS/v0.1/sysroots/loongarch64-Loongson-linux/lib64/loongarch64-Loongson-linux/8.3.0 \
+    /opt/LoongOS/v0.1/sysroots/loongarch64-Loongson-linux/lib64 \
+    /opt/LoongOS/v0.1/sysroots/loongarch64-Loongson-linux/usr/lib64/loongarch64-Loongson-linux/8.3.0 \
+    /opt/LoongOS/v0.1/sysroots/loongarch64-Loongson-linux/usr/lib64

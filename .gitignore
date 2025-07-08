@@ -1,0 +1,151 @@
+# ===================================================================
+#      .gitignore for a Qt (C++) + Python (PyTorch) Project
+# ===================================================================
+
+# -----------------
+# General & OS
+# -----------------
+# IDE-specific folders and files
+.idea/
+.vscode/
+*.suo
+*.user
+*.user.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# -----------------
+# Qt & C++ Build System
+# -----------------
+# Build directories (very important!)
+/build-*/
+build/
+release/
+debug/
+
+# Qt Creator specific
+*.pro.user
+*.pro.user.*
+*.creator.user
+*.creator.user.*
+
+# Qt generated files (should be regenerated on build)
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+
+# Makefiles and CMake generated files
+Makefile*
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+
+# Compiled object files and libraries
+*.o
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.app
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.obj
+*.pch
+
+
+# -----------------
+# Python & PyTorch
+# -----------------
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+
+
+# -----------------
+# Project Specific (YOUR PROJECT)
+# -----------------
+# Ignore ALL CSV dataset files, wherever they are
+*.csv
+
+# Ignore model checkpoints and saved models
+# It's better to provide a script or instructions to get the model
+checkpoints/
+*.pth
+*.pt
+*.onnx
+
+# Ignore data folders that are generated or contain raw data
+# (Assuming these are at the root, otherwise specify path like /data/processed_csv/)
+processed_csv/
+Collect/
+Data/
+
+# Ignore log files
+*.log
+
+
+# -----------------
+# Exceptions (if needed)
+# -----------------
+# If you have a SPECIFIC file you want to track despite a general rule,
+# you can use the ! symbol. For example, to keep a sample dataset:
+# !data/sample_data.csv

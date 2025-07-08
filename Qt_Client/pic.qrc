@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>wifi.png</file>
+    </qresource>
+</RCC>
