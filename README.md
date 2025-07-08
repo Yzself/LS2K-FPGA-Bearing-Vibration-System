@@ -84,7 +84,13 @@ make
 将生成的可执行文件LoongQt放到龙芯开发板上运行.
 ```
 
-#### 3. 编译客户端 (在PC)
+#### 3. Python脚本调用 (在龙芯平台)
+Qt-QProcess管理进程会调用`[\Python\run_on_loong]`下的py脚本
+```
+# 将用到的所有脚本与可执行文件LoongQt以及训练好的模型文件(.pth)放在龙芯平台同一目录下.
+```
+
+#### 4. 编译客户端 (在PC)
 ```bash
 # 使用 Qt Creator 打开 Qt_Client/Loong_Client.pro 文件，编译运行。
 # 或者使用命令行：
@@ -94,8 +100,8 @@ make
 ./Client
 ```
 
-#### 4. 模型训练 (在PC)
-模型训练脚本位于 `[\LS2K-FPGA-Bearing-Vibration-System\Python]`。
+#### 5. 模型训练 (在PC)
+模型训练脚本位于 `[\Python]`。
 ```bash
 cd .\Python
 python train.py 
