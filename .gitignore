@@ -1,0 +1,122 @@
+# ===================================================================
+# General
+# ===================================================================
+# IDE and OS generated files
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+
+# ===================================================================
+# C++ / Qt Creator / Build files
+# ===================================================================
+# Qt Creator user settings
+*.pro.user
+*.pro.user.*
+*.creator.user
+*.creator.user.*
+
+# Build directories (very important!)
+build/
+build-*/
+debug/
+release/
+**/debug/
+**/release/
+cmake-build-*/
+
+# Compiled files
+*.o
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.exe
+*.app
+*.dmg
+
+# Makefiles and other build system files
+Makefile
+Makefile.*
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+
+# Qt generated files
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# ===================================================================
+# Python / PyTorch
+# ===================================================================
+# Virtual environment (very important!)
+venv/
+.venv/
+env/
+.env/
+/env.bak/
+/venv.bak/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ===================================================================
+# Project Specific Files (You need to customize this section!)
+# ===================================================================
+# Large datasets
+# If your CSV data is large, ignore the directories containing them.
+# For example, if you have a `data/` directory for raw data:
+# data/
+Collect/
+processed_csv/
+CollectByYzself/
+Triaxial Bearing Vibration Dataset-100watt/
+*.csv
+
+# Trained model files (these are usually large binary files)
+*.pth
+*.pt
+*.onnx
+checkpoints/
+
+# Log files and other temporary output
+*.log
+*.tmp
+*.temp
+
+# Local configuration files that should not be shared
+config.ini
+secrets.json
