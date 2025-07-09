@@ -34,7 +34,7 @@ An intelligent bearing fault diagnosis system based on Loongson 2K1000LA, using 
 
 *   **硬件**: 龙芯2K1000LA, 国产FPGA, 三轴加速度传感器 (ADXL357)
 *   **软件-后端/嵌入式**: C++17, Qt 5.12, Python 3.7.3, PyTorch, Verilog
-*   **软件-通信**: 自定义TCP/IP封包协议, JSON
+*   **软件-通信**: 自定义TCP/IP封包协议, JSON, SPI通信
 *   **操作系统**: Loongnix (龙芯Linux发行版), Windows/Linux (PC端)
 *   **核心算法**: ResNet-18 (轻量化), 梅尔频率倒谱系数 (MFCC)
 
